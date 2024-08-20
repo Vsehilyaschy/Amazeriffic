@@ -2,6 +2,7 @@
 body {
     background: #f9e933;
     width: auto;
+    font-size: 100%;
 }
 
 header, main, footer {
@@ -11,6 +12,14 @@ header, main, footer {
 header .container, main .container, footer .containder {
     max-width: 855px;
     margin: auto;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a, h5, p, li {
+    font-family: 'Droid Sans', sans-serif;
 }
 
 header {
