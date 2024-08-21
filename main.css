@@ -20,19 +20,77 @@ h1, h2, h3, h4 {
 
 h1 {
     font-size: 3.5em;
+    padding: 25px 0;
+    font-style: italic;
 }
 
 h2 {
     font-size: 1.6em;
+    padding: 35px 35px 10px 35px;
 }
 
 h3 {
     font-size: 1.3em;
+    padding: 25px 35px 10px 35px;
+}
+
+main li {
+    padding-left: 35px;
+    padding-bottom: 5px;
+}
+
+main ul {
+    list-style: inside;
+    list-style-type: circle;
 }
 
 h5 {
     font-size: 1.3em;
 }
+
+nav {
+    padding: 30px 0;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+}
+
+main p {
+    padding: 0 0 0 35px;
+}
+
+img {
+    width: 70%;
+    padding: 35px 0 35px 75px;
+}
+
+.contact h5 {
+    padding-top: 35px;
+    padding-bottom: 12px;
+    padding-left: 5px;
+}
+
+.contact p {
+    padding-left: 5px;
+}
+
+.sitemap h5 {
+    padding-top: 35px;
+    padding-bottom: 12px;
+    width: 45%;
+}
+
+.right ul {
+    width: 45%;
+}
+
+.right-list {
+    width: 50%;
+}
+
+
 
 a, h5, p, li {
     font-family: 'Droid Sans', sans-serif;
@@ -68,12 +126,24 @@ main .right {
     width: 285px;
 }
 
-footer .left {
+footer .contact {
     float: left;
     width: 570px;
 }
 
-footer .right {
+footer .sitemap {
     float: right;
     width: 285px;
+}
+
+footer ul {
+    width: 230px;
+}
+
+footer .sitemap .left {
+    float: left;
+}
+
+footer .sitemap .right {
+    float: right;
 }
